@@ -7,20 +7,9 @@ import ListItemText from "@mui/material/ListItemText";
 import SendIcon from "@mui/icons-material/Send";
 import Contacts from "@mui/icons-material/ContactPage";
 
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Home() {
-  let navigate = useNavigate();
-  const handleClick = (e) => {
-    console.log(e);
-    navigate("/contacts");
-  };
-  const [open, setOpen] = React.useState(true);
-
-  // const handleClick = () => {
-  //   setOpen(!open);
-  // };
-
   return (
     <>
       <List

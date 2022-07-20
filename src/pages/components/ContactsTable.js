@@ -15,12 +15,10 @@ const ContactsTable = ({ id, firstName, lastName, phoneNumber }) => {
         component={Link}
         onClick={handler}
         style={{
-          // height: "2rem",
           widht: "100%",
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          // margin: "0.6rem",
           padding: "1em",
           boxShadow: 1,
           textDecoration: "none",

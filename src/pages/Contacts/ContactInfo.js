@@ -86,12 +86,18 @@ const ContactInfo = () => {
   useEffect(() => {
     setOtp(otpGenerator());
     setContactInfo(...getContactInfo());
-  }, []);
+  }, [getContactInfo, otpGenerator]);
   return (
     <>
-     <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <div> <h2> ContactInfo</h2></div>
-        <div> <Goback /></div>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <div>
+          {" "}
+          <h2> ContactInfo</h2>
+        </div>
+        <div>
+          {" "}
+          <Goback />
+        </div>
       </div>
       <div
         style={{
