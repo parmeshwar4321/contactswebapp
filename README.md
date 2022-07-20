@@ -1,20 +1,24 @@
 # contacts web app
 
-<p>here i have created simple web app for phone directory</p>
+***product description***
+* its simple applications for sending otp messages to your friend/family-member. after sending otp you can check response and timestamp of already sent otp in  ```sent messages``` section.
 
-features of this app
+***features of this app***
 
-* you can check your contacts/phone-numbers
-* you can send Otp to your contacts using Twilio
-* you can check latest otp/message sent in ```sent messages``` section
+* implemented Twilio for sending otp
+* it handles error if their is problem with sending otp
+* you can easily navigate to any routes
+* its deployed on vercel [Live-URL](https://contactswebapp.vercel.app/)
 
-**Tech Stacks**
+
+
+***Tech Stacks***
 * NodeJs
 * mongoDb
 * React
 * Material-ui
 
-
+---
 ## to run this application
 ```
  $ git clone <github-urL>
@@ -25,5 +29,5 @@ features of this app
 
 ```
 
-***note*** : i have created backend in one file  .i.e ```server.js```.<br>you can create your own  separate folder structure  for backend
+***note*** : i have created backend in one file  .i.e [server.js](server.js).<br>you can create your own  separate folder structure  for backend
   
