@@ -86,7 +86,7 @@ const ContactInfo = () => {
   useEffect(() => {
     setOtp(otpGenerator());
     setContactInfo(...getContactInfo());
-  }, [getContactInfo, otpGenerator]);
+  }, []);
   return (
     <>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
