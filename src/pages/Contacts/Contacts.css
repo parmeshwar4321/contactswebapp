@@ -1,0 +1,15 @@
+
+  
+  
+  th {
+  
+    color: #757575
+  }
+  
+  td {
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    color: #192A3E
+  }
